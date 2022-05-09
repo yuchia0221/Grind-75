@@ -1,6 +1,6 @@
 # Blind 75
 
-##### Problem Solved: 0 / 75
+##### Problem Solved: 1 / 75
 - [ ] [Array](#array) (10)
 - [ ] [Binary](#binary) (5)
 - [ ] [Dynamic Programming](#dynamic-programming) (11)
@@ -15,7 +15,7 @@
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python . The original post can be found on [leetcode](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions). Questions can be categorized into 12 cagtegories, including Array, Binary, Dynamic Programming, Graph, Interval, Linked List, Matrix, String, Tree, and Heap.
 
 ### Array
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/): [Solution](/Array/1-TwoSum/)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
