@@ -31,4 +31,4 @@ for i, j in enumerate(nums):
 
 Time Complexity: O(n), Space Complexity: O(n)
 
-Solution: Instead of searching the whole array in each iteration, using a hash table can determine whether this element is the target value in $O(1)$ time.
+Solution: Instead of searching the whole array in each iteration, using a hash table can determine whether this element is the target value in O(1) time.
