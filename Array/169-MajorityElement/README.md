@@ -1,4 +1,4 @@
-# Majoruty Element
+# Majority Element
 
 Problem can be found in [here](https://leetcode.com/problems/majority-element/)!
 
