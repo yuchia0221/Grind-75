@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 3 / 75
+##### Problem Solved: 4 / 75
 
 -   [ ] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
@@ -25,7 +25,7 @@
 -   [x] [Two Sum](https://leetcode.com/problems/two-sum): [Solution](/Array/1-TwoSum)
 -   [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 -   [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
--   [ ] [Majority Element](https://leetcode.com/problems/majority-element)
+-   [x] [Majority Element](https://leetcode.com/problems/majority-element)
 -   [ ] [Insert Interval](https://leetcode.com/problems/insert-interval)
 -   [ ] [3Sum](https://leetcode.com/problems/3sum/)
 -   [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
