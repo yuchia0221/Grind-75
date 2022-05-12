@@ -30,4 +30,4 @@ def majorityElement(self, nums: List[int]) -> int:
                 return number
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(nlogn)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(nlogn)>)
+Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>)
