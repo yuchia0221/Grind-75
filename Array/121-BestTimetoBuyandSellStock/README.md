@@ -18,7 +18,7 @@ Problem can be found in [here](https://leetcode.com/problems/best-time-to-buy-an
     return maxGap
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![1](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
 
 Solution: We cannot buy a stock in the future and sell it now in stock market; thus, we only need to store the lowest stock price in every iteration. And in next iteretion, we only need to check whether current stock price is higher than previous lowest stock price. If so, then we might need to update *maxGap*. On the other hand, if current stock price is lower than previous lowest price, then we need to update two pointers (*left*, *right*).
 

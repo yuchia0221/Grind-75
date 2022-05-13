@@ -14,7 +14,7 @@ def containsDuplicate(self, nums: List[int]) -> bool:
     return False
 ```
 
-Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>), Space Complexity: ![1](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
 
 ### [Improved Solution](/Array/217-ContainsDuplicate/improvedSolution.py): Sort
 
@@ -31,7 +31,7 @@ def containsDuplicate(self, nums: List[int]) -> bool:
     return False
 ```
 
-Time Complexity: ![O(nlogn)](<https://latex.codecogs.com/svg.image?\inline&space;O(nlogn)>), Space Complexity: ![1](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(nlogn)](<https://latex.codecogs.com/svg.image?\inline&space;O(nlogn)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
 
 ### [Optimized Solution](/Array/217-ContainsDuplicate/optimizedSolution.py): Set or Hash Table
 

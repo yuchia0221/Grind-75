@@ -12,7 +12,7 @@ def majorityElement(self, nums: List[int]) -> int:
             return nums[i]
 ```
 
-Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>), Space Complexity: ![1](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
 
 ### [Improved Solution](/Array/169-MajorityElement/ImprovedSolution.py): Hash Table
 

@@ -13,7 +13,7 @@ Problem can be found in [here](https://leetcode.com/problems/two-sum/)!
         if nums[j] == number_to_find:
             return [i, j] # Find indices of the two numbers!
 ```
-Time Complexity: ![O(n^2)](https://latex.codecogs.com/svg.image?\inline&space;O(n^2)), Space Complexity: ![1](https://latex.codecogs.com/svg.image?\inline&space;O(1))
+Time Complexity: ![O(n^2)](https://latex.codecogs.com/svg.image?\inline&space;O(n^2)), Space Complexity: ![O(1)](https://latex.codecogs.com/svg.image?\inline&space;O(1))
 
 Solution: Simply iterate the array and find the target value among the array in each iteration.
 
