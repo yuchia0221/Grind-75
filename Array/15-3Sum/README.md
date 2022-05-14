@@ -38,7 +38,7 @@ def threeSum(nums: List[int]) -> List[List[int]]:
             # Case 2: target is bigger than total => we need to make total smaller through moving the right pointer
             elif target < total:
                 right -= 1
-            # Case ˇ: target is smaller than total => we need to make total bigger through moving the left pointer
+            # Case 3: target is smaller than total => we need to make total bigger through moving the left pointer
             else:
                 left += 1
 
