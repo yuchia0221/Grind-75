@@ -5,7 +5,7 @@ Problem can be found in [here](https://leetcode.com/problems/best-time-to-buy-an
 ### [Solution 1](/Array/121-BestTimetoBuyandSellStock/solution1.py): Left Right Pointer
 
 ```python
- def maxProfit(self, prices: List[int]) -> int:
+ def maxProfit(prices: List[int]) -> int:
     maxGap = 0
     left, right = 0, 1
     while right < len(prices):
@@ -25,7 +25,7 @@ Solution: We cannot buy a stock in the future and sell it now in stock market; t
 ### [Solution 2](/Array/121-BestTimetoBuyandSellStock/solution2.py): Min Max
 
 ```python
-def maxProfit(self, prices: List[int]) -> int:
+def maxProfit(prices: List[int]) -> int:
     buyPrice, maxGap = float("inf"), 0
     for price in prices:
         buyPrice, maxGap = min(buyPrice, price), max(maxGap, price - buyPrice)

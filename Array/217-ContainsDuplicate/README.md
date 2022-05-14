@@ -5,7 +5,7 @@ Problem can be found in [here](https://leetcode.com/problems/contains-duplicate)
 ### [Basic Solution](/Array/217-ContainsDuplicate/basicSolution.py): Brute Force
 
 ```python
-def containsDuplicate(self, nums: List[int]) -> bool:
+def containsDuplicate(nums: List[int]) -> bool:
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] == nums[j]:
@@ -19,7 +19,7 @@ Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O
 ### [Improved Solution](/Array/217-ContainsDuplicate/improvedSolution.py): Sort
 
 ```python
-def containsDuplicate(self, nums: List[int]) -> bool:
+def containsDuplicate(nums: List[int]) -> bool:
     nums.sort()
     left, right = 0, 1
     while right < len(nums):
@@ -36,7 +36,7 @@ Time Complexity: ![O(nlogn)](<https://latex.codecogs.com/svg.image?\inline&space
 ### [Optimized Solution](/Array/217-ContainsDuplicate/optimizedSolution.py): Set or Hash Table
 
 ```python
-def containsDuplicate(self, nums: List[int]) -> bool:
+def containsDuplicate(nums: List[int]) -> bool:
     memo = set()
     for number in nums:
         if number in memo:

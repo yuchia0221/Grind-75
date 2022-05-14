@@ -5,7 +5,7 @@ Problem can be found in [here](https://leetcode.com/problems/majority-element/)!
 ### [Basic Solution](/Array/169-MajorityElement/BasicSolution.py): Brute Force
 
 ```python
-def majorityElement(self, nums: List[int]) -> int:
+def majorityElement(nums: List[int]) -> int:
     for i in range(len(nums)):
         counter = sum(1 for number in nums if number == nums[i])
         if counter > len(nums) // 2:
@@ -17,7 +17,7 @@ Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O
 ### [Improved Solution](/Array/169-MajorityElement/ImprovedSolution.py): Hash Table
 
 ```python
-def majorityElement(self, nums: List[int]) -> int:
+def majorityElement(nums: List[int]) -> int:
     memo = {}
     threshold = len(nums) // 2
     for number in nums:
