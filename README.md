@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 6 / 75
+##### Problem Solved: 7 / 75
 
 -   [ ] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
@@ -28,7 +28,7 @@
 -   [x] [Majority Element](https://leetcode.com/problems/majority-element): [Solution](/Array/169-MajorityElement/)
 -   [x] [Insert Interval](https://leetcode.com/problems/insert-interval): [Solution](/Array/57-InsertInterval/)
 -   [x] [3Sum](https://leetcode.com/problems/3sum/): [Solution](/Array/15-3Sum/)
--   [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
+-   [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self): [Solution](/Array/238-ProductofArrayExceptSelf/)
 -   [ ] [Combination Sum](https://leetcode.com/problems/combination-sum)
 -   [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals)
 -   [ ] [Sort Colors](https://leetcode.com/problems/sort-colors)
