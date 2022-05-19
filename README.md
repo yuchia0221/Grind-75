@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 9 / 75
+##### Problem Solved: 10 / 75
 
 -   [ ] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
@@ -31,7 +31,7 @@
 -   [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self): [Solution](/Array/238-ProductofArrayExceptSelf/)
 -   [x] [Combination Sum](https://leetcode.com/problems/combination-sum): [Solution](/Array/39-CombinationSum/)
 -   [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals): [Solution](/Array/56-MergeIntervals/)
--   [ ] [Sort Colors](https://leetcode.com/problems/sort-colors)
+-   [x] [Sort Colors](https://leetcode.com/problems/sort-colors): [Solution](/Array/75-SortColors/)
 -   [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 
 ---
