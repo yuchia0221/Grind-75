@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 11 / 75
+##### Problem Solved: 12 / 75
 
 -   [x] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
@@ -38,7 +38,7 @@
 
 ### Stack
 
--   [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+-   [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses): [Solution](/Stack/20-ValidParentheses/)
 -   [ ] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
 -   [ ] [Min Stack](https://leetcode.com/problems/min-stack)
 -   [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
