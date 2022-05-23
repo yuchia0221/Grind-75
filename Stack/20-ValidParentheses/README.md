@@ -1,6 +1,6 @@
 # Valid Parentheses
 
-Problem can be found in [here](https://leetcode.com/problems/valid-parentheses/)!
+Problem can be found in [here](https://leetcode.com/problems/valid-parentheses)!
 
 ### [Solution](/Stack/20-ValidParentheses/solution.py)
 
