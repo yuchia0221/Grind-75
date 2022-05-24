@@ -39,7 +39,7 @@
 ### Stack
 
 -   [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses): [Solution](/Stack/20-ValidParentheses/)
--   [x] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+-   [x] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks): [Solution](/Stack/232-ImplementQueueusingStacks/)
 -   [x] [Min Stack](https://leetcode.com/problems/min-stack): [Solution](/Stack/232-ImplementQueueusingStacks/): [Solution](/Stack/155-MinStack/)
 -   [x] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation): [Solution](/Stack/150-EvaluateReversePolishNotation/)
 -   [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
