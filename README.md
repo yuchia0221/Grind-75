@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 15 / 75
+##### Problem Solved: 16 / 75
 
 -   [x] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
