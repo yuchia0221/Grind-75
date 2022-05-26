@@ -42,7 +42,7 @@
 -   [x] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks): [Solution](/Stack/232-ImplementQueueusingStacks/)
 -   [x] [Min Stack](https://leetcode.com/problems/min-stack): [Solution](/Stack/232-ImplementQueueusingStacks/): [Solution](/Stack/155-MinStack/)
 -   [x] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation): [Solution](/Stack/150-EvaluateReversePolishNotation/)
--   [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
+-   [x] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water): [Solution](/Stack/42-TrappingRainWater/)
 -   [ ] [Basic Calculator](https://leetcode.com/problems/basic-calculator)
 -   [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
