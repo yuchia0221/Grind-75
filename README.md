@@ -1,6 +1,6 @@
 # Grind 75
 
-##### Problem Solved: 16 / 75
+##### Problem Solved: 17 / 75
 
 -   [x] [Array](#array) (11)
 -   [ ] [Stack](#stack) (7)
@@ -43,7 +43,7 @@
 -   [x] [Min Stack](https://leetcode.com/problems/min-stack): [Solution](/Stack/232-ImplementQueueusingStacks/): [Solution](/Stack/155-MinStack/)
 -   [x] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation): [Solution](/Stack/150-EvaluateReversePolishNotation/)
 -   [x] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water): [Solution](/Stack/42-TrappingRainWater/)
--   [ ] [Basic Calculator](https://leetcode.com/problems/basic-calculator)
+-   [x] [Basic Calculator](https://leetcode.com/problems/basic-calculator)
 -   [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
 
 ---
