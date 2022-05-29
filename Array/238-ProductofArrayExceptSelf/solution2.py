@@ -8,7 +8,7 @@ class Solution:
         for index, number in enumerate(nums):
             output_list[index] *= prefix_poduct
             prefix_poduct *= number
-            output_list[-1 - index] *= suffix_poduct
-            suffix_poduct *= nums[-1 - index]
+            output_list[-1-index] *= suffix_poduct
+            suffix_poduct *= nums[-1-index]
 
         return output_list
