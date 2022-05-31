@@ -3,10 +3,10 @@
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
 
-##### Problem Solved: 17 / 75
+##### Problem Solved: 18 / 75
 
 -   [x] [Array](#array) (11)
--   [ ] [Stack](#stack) (7)
+-   [x] [Stack](#stack) (7)
 -   [ ] [Linked-List](#linked-list) (5)
 -   [ ] [String](#string) (8)
 -   [ ] [Binary Tree](#binary-tree) (9)
@@ -46,7 +46,7 @@
 -   [x] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation): [Solution](/Stack/150-EvaluateReversePolishNotation/)
 -   [x] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water): [Solution](/Stack/42-TrappingRainWater/)
 -   [x] [Basic Calculator](https://leetcode.com/problems/basic-calculator): [Solution](/Stack/224-BasicCalculator/)
--   [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)
+-   [x] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram): [Solution](/Stack/84-LargestRectangleinHistogram/)
 
 ---
 
