@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/middle-of-the-linked-list/)!
 
-### [Solution](/Linked%20List/876-MiddleoftheLinkedList/solution.py):
+### [Solution](/Linked%20List/876-MiddleoftheLinkedList/solution.py): Fast and Slow Pointers
 
 ```python
 # Definition for singly-linked list.
