@@ -52,7 +52,7 @@
 
 -   [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists): [Solution](/Linked%20List/21-MergeTwoSortedLists/)
 -   [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle): [Solution](/Linked%20List/141-LinkedListCycle/)
--   [ ] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list)
+-   [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list): [Solution](/Linked%20List/206-Reverse-Linked-List/)
 -   [ ] [Middle of the Linked List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)
 -   [ ] [LRU Cache](https://leetcode.com/problems/reorder-list)
 
