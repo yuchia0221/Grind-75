@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/valid-anagram)!
 
-### [Solution1](/String/242-ValidAnagram/solution.py): Hash Table
+### [Solution](/String/242-ValidAnagram/solution.py): Hash Table
 
 ```python
 def isAnagram(s: str, t: str) -> bool:
