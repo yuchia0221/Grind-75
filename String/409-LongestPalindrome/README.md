@@ -25,4 +25,21 @@ def longestPalindrome(s: str) -> int:
     return longest_length + 1 if odd_flag else longest_length
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>)
+
+### [Solution2](/String/409-LongestPalindrome/solution2.py): Set
+
+```python
+def longestPalindrome(s: str) -> int:
+    memo = set()
+    for token in s:
+        try:
+            memo.remove(token)
+        except KeyError:
+            memo.add(token)
+
+    has_odd_number = len(memo) > 0
+    return len(s) - len(memo) + 1 if has_odd_number else len(s)
+```
+
+Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>)
