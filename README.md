@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 25 / 75
+##### Problem Solved: 26 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -62,7 +62,7 @@
 
 -   [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome): [Solution](/String/125-ValidPalindrome/)
 -   [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/String/242-ValidAnagram/)
--   [ ] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
+-   [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome): [Solution](/String/409-LongestPalindrome/)
 -   [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 -   [ ] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 -   [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
