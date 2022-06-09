@@ -65,7 +65,7 @@
 -   [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome): [Solution](/String/409-LongestPalindrome/)
 -   [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters): [Solution](/String/3-LongestSubstringWithoutRepeatingCharacters/)
 -   [x] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi): [Solution](/String/8-StringtoInteger(atoi)/)
--   [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring): [Solution](/String/5-LongestPalindromicSubstring/
+-   [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring): [Solution](/String/5-LongestPalindromicSubstring/)
 -   [x] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string): [Solution](/String/438-FindAllAnagramsinaString/)
 -   [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
 
