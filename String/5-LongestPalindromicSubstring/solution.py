@@ -1,12 +1,11 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         longest_palindrome = s[0]
-        memo = [[False] * len(s) for i in range(len(s))]
+        memo = [[False] * len(s) for _ in range(len(s))]
 
         for i in range(len(s)):
             memo[i][i] = True
 
-        # P[i,j] = P(i+1,j-1) + S[i] == S[j]
         for i in range(len(s)):
             for j in range(i-1, -1, -1):
                 if s[i] == s[j]:
