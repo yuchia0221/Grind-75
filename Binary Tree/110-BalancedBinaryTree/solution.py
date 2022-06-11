@@ -16,8 +16,9 @@ class Solution:
             return True
 
         self.memo = {}
-        is_root_balanced = abs(self.find_depth(root.left), self.find_depth(root.right)) < 2
-        return is_root_balanced and self.isBalanced(root.left) and self.isBalanced(root.right)
+        subtrees_height_diff = abs(self.find_depth(root.left)-self.find_depth(root.right))
+        is_tree_balanced = subtrees_height_diff < 2
+        return is_tree_balanced and self.isBalanced(root.left) and self.isBalanced(root.right)
 
     def find_depth(self, node: Optional[TreeNode]) -> int:
         if node is None:
