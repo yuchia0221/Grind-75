@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 32 / 75
+##### Problem Solved: 33 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -64,7 +64,7 @@
 -   [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/String/242-ValidAnagram/)
 -   [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome): [Solution](/String/409-LongestPalindrome/)
 -   [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters): [Solution](/String/3-LongestSubstringWithoutRepeatingCharacters/)
--   [x] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi): [Solution](/String/8-StringtoInteger(atoi)/)
+-   [x] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi): [Solution](</String/8-StringtoInteger(atoi)/>)
 -   [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring): [Solution](/String/5-LongestPalindromicSubstring/)
 -   [x] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string): [Solution](/String/438-FindAllAnagramsinaString/)
 -   [x] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring): [Solution](/String/76-MinimumWindowSubstring/)
@@ -74,7 +74,7 @@
 ### Binary Tree
 
 -   [x] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree): [Solution](/Binary%20Tree/226-InvertBinaryTree/)
--   [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)
+-   [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree): [Solution](/Binary%20Tree/110-BalancedBinaryTree/)
 -   [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)
 -   [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 -   [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
