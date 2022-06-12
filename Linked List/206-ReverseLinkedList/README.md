@@ -2,15 +2,17 @@
 
 Problem can be found in [here](https://leetcode.com/problems/reverse-linked-list/)!
 
+```python
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+```
+
 ### [Solution](/Linked%20List/206-Reverse-Linked-List/solution.py)
 
 ```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
 def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
     previous_node = None
     while head:

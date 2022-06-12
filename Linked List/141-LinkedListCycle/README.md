@@ -2,15 +2,17 @@
 
 Problem can be found in [here](https://leetcode.com/problems/linked-list-cycle/)!
 
+```python
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+```
+
 ### [Solution](/Linked%20List/141-LinkedListCycle/solution.py): Fast Slow Pointers
 
 ```python
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
 def hasCycle(head: Optional[ListNode]) -> bool:
     fast_pointer = slow_pointer = head
 
