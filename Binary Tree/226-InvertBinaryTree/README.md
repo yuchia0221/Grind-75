@@ -11,7 +11,7 @@ class TreeNode:
         self.right = right
 ```
 
-### [Solution1](/Binary%20Tree/226-InvertBinaryTree/solution1.py): DFS(Recursion)
+### [Solution1](/Binary%20Tree/226-InvertBinaryTree/solution1.py): Depth-First Search(Recursion)
 
 ```python
 class Solution:

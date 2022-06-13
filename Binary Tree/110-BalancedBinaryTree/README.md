@@ -11,7 +11,7 @@ class TreeNode:
         self.right = right
 ```
 
-### [Solution](/Binary%20Tree/110-BalancedBinaryTree/solution.py): Hash Table + DFS
+### [Solution](/Binary%20Tree/110-BalancedBinaryTree/solution.py): Hash Table + Depth-First Search
 
 ```python
 class Solution:
