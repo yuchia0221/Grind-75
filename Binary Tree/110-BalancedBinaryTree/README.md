@@ -33,4 +33,6 @@ class Solution:
         return self.memo[node]
 ```
 
+Explanation: The definition of a balanced binary tree is "a binary tree in which the left and right subtrees of every node differ in height by no more than 1." Therefore, we need to check whether the height difference between the left and right subtrees is no more than 1 for every tree node. To do so, we can simply iterate the whole binary tree through depth-first search (DFS). With a hash table, we can improve the time complexity to ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>) instead of ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>).
+
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(h)](<https://latex.codecogs.com/svg.image?\inline&space;O(h)>) for the recursive stack, where h is the height of the binary tree. In worst case, h will be n for an unbalanced binary tree.
