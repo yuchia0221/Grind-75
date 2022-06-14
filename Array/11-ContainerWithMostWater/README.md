@@ -23,6 +23,6 @@ def maxArea(height: List[int]) -> int:
     return max_volume
 ```
 
-Solution: Sorting intervals can make sure that for any 0 <= i <= size of intervals-1, intervals\[i][0]<=intervals\[i+1][0], which is a great property that we only need to change end time in overlapping cases.
+Explanation: Sorting intervals can make sure that for any 0 <= i <= size of intervals-1, intervals\[i][0]<=intervals\[i+1][0], which is a great property that we only need to change end time in overlapping cases.
 
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)

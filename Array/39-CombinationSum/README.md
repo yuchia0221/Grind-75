@@ -24,8 +24,8 @@ def combinationSum(candidates: List[int], target: int) -> List[List[int]]:
     return output_list
 ```
 
-Solution: The algorithm is simple; just use backtracking techniques. Noted that we use variable index to avoid duplicated combination. So, whenever index becomes larger, we cannot choose number before the index element in candidates array.
+Explanation: The algorithm is simple; just use backtracking techniques. Noted that we use variable index to avoid duplicated combination. So, whenever index becomes larger, we cannot choose number before the index element in candidates array.
 
-Time Complexity: ![O(2^k)](https://latex.codecogs.com/svg.image?\inline&space;O(2^k)), where k is the number of tree nodes of the recursion tree. In this given problem, k is the sum of target/candidates[i] from i=0 to len(candidates)-1.
+Time Complexity: ![O(2^k)](<https://latex.codecogs.com/svg.image?\inline&space;O(2^k)>), where k is the number of tree nodes of the recursion tree. In this given problem, k is the sum of target/candidates[i] from i=0 to len(candidates)-1.
 
-Space Complexity:  ![O(n)](https://latex.codecogs.com/svg.image?\inline&space;O(n)), where n is the length of longest combination. In worst case scenario, N = target when 1 is in the candidates array.
+Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), where n is the length of longest combination. In worst case scenario, N = target when 1 is in the candidates array.

@@ -34,6 +34,6 @@ class Solution:
         return output_list
 ```
 
-Solution: We can solve this problem by using breath-first search (BFS). To support performing BFS on the binary tree, we need to use a queue. As we iterate the whole binary tree, we will get the level-order traversal of given binary tree.
+Explanation: We can solve this problem by using breath-first search (BFS). To support performing BFS on the binary tree, we need to use a queue. As we iterate the whole binary tree, we will get the level-order traversal of given binary tree.
 
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
