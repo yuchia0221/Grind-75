@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 36 / 75
+##### Problem Solved: 37 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -79,7 +79,7 @@
 -   [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree): [Solution](/Binary%20Tree/104-MaximumDepthofBinaryTree/)
 -   [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal): [Solution](/Binary%20Tree/102-BinaryTreeLevelOrderTraversal/)
 -   [x] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree): [Solution](/Binary%20Tree/236-LowestCommonAncestorofaBinaryTree/)
--   [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
+-   [x] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view): [Solution](/Binary%20Tree/199-BinaryTreeRightSideView/)
 -   [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 -   [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
 
