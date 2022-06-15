@@ -78,7 +78,7 @@
 -   [x] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree): [Solution](/Binary%20Tree/543-DiameterofBinaryTree/)
 -   [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree): [Solution](/Binary%20Tree/104-MaximumDepthofBinaryTree/)
 -   [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal): [Solution](/Binary%20Tree/102-BinaryTreeLevelOrderTraversal/)
--   [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
+-   [x] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree): [Solution](/Binary%20Tree/236-LowestCommonAncestorofaBinaryTree/)
 -   [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 -   [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 -   [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
