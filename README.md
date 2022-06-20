@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 41 / 75
+##### Problem Solved: 42 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -88,7 +88,7 @@
 ### Binary Search
 
 -   [x] [Binary Search](https://leetcode.com/problems/binary-search): [Solution](/Binary%20Search/704-BinarySearch/)
--   [ ] [First Bad Version](https://leetcode.com/problems/first-bad-version)
+-   [x] [First Bad Version](https://leetcode.com/problems/first-bad-version): [Solution](/Binary%20Search/278-FirstBadVersion/)
 -   [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
 -   [ ] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)
 -   [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)
