@@ -9,14 +9,19 @@ def search(nums: List[int], target: int) -> int:
     left, right = 0, len(nums)-1
 
     while left <= right:
-        mid = (left+right) // 2
+        # avoid the potential overflow porblem in other programming language, but not including Python
+        mid = left + (right-left) // 2
         if nums[mid] == target:
             return mid
-        elif nums[mid] >= nums[left]:
+
+        # The left-handed side of mid in nums is ordered
+        if nums[mid] >= nums[left]:
             if nums[left] <= target < nums[mid]:
                 right = mid - 1
             else:
                 left = mid + 1
+        
+        # The right-handed side of mid in nums is ordered
         else:
             if nums[mid] < target <= nums[right]:
                 left = mid + 1
