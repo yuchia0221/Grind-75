@@ -11,20 +11,14 @@ class TimeMap:
 
     def get(self, key: str, timestamp: int) -> str:
         matches = self.map[key]
-        if len(matches) == 0:
-            return ""
-        else:
-            return self.binary_seacrch(matches, timestamp)
-
-    def binary_seacrch(self, data: List[Union[str, int]], timestamp: int) -> str:
-        left, right = 0, len(data)-1
 
         answer = ""
+        left, right = 0, len(matches)-1
         while left <= right:
             mid = left + (right-left) // 2
-            if data[mid][1] <= timestamp:
+            if matches[mid][1] <= timestamp:
                 left = mid + 1
-                answer = data[mid][0]
+                answer = matches[mid][0]
             else:
                 right = mid - 1
 
