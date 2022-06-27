@@ -2,14 +2,14 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 44 / 75
+##### Problem Solved: 45 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
 -   [x] [Linked-List](#linked-list) (5)
 -   [x] [String](#string) (8)
 -   [x] [Binary Tree](#binary-tree) (9)
--   [ ] [Binary Search](#binary-search) (5)
+-   [x] [Binary Search](#binary-search) (5)
 -   [ ] [Graph](#graph) (10)
 -   [ ] [Dynamic Programming](#dynamic-programming) (5)
 -   [ ] [Binary Search Tree](#binary-search-tree) (3)
@@ -91,7 +91,7 @@
 -   [x] [First Bad Version](https://leetcode.com/problems/first-bad-version): [Solution](/Binary%20Search/278-FirstBadVersion/)
 -   [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array): [Solution](/Binary%20Search/33-SearchinRotatedSortedArray/)
 -   [x] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store): [Solution](/Binary%20Search/981-TimeBasedKey-ValueStore/)
--   [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)
+-   [x] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)[Solution](/Binary%20Search/1235-MaximumProfitinJobScheduling/)
 
 ---
 
