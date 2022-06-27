@@ -90,7 +90,7 @@
 -   [x] [Binary Search](https://leetcode.com/problems/binary-search): [Solution](/Binary%20Search/704-BinarySearch/)
 -   [x] [First Bad Version](https://leetcode.com/problems/first-bad-version): [Solution](/Binary%20Search/278-FirstBadVersion/)
 -   [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array): [Solution](/Binary%20Search/33-SearchinRotatedSortedArray/)
--   [x] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store)
+-   [x] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store): [Solution](/Binary%20Search/981-TimeBasedKey-ValueStore/)
 -   [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)
 
 ---
