@@ -2,9 +2,10 @@
 
 Problem can be found in [here](https://leetcode.com/problems/maximum-profit-in-job-scheduling)!
 
-### [Solution](/Binary%20Search/1235-MaximumProfitinJobScheduling/solution.py)
+### [Solution](/Binary%20Search/1235-MaximumProfitinJobScheduling/solution.py): Dynamic Programming
 
 ```python
+# Support Memorization for Dynamic Programming
 def memorization(func):
     memo = {}
 
@@ -18,6 +19,8 @@ def memorization(func):
 class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         def find_next_available_job(index: int, end_time: int) -> int:
+            # Perform the binary search to find the smallest next available job i for the current job j
+            # such that j.endtime <= i.starttime
             left, right = index, len(jobs)
             while left < right:
                 mid = left + (right-left) // 2
