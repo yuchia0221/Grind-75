@@ -20,7 +20,8 @@ class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         def find_next_available_job(index: int, end_time: int) -> int:
             # Perform the binary search to find the smallest next available job i for the current job j
-            # such that j.endtime <= i.starttime
+            # such that j.endtime <= i.starttime. If none, return the number of jobs.
+
             left, right = index, len(jobs)
             while left < right:
                 mid = left + (right-left) // 2
@@ -36,6 +37,9 @@ class Solution:
             if index == len(jobs):
                 return 0
             next_available_job = find_next_available_job(index, jobs[index][1])
+            
+            # Defined the maximum profit for interval 1 to j as OPT(j) => OPT(j) = max{j.profit + OPT(p(j)), OPT(j-1)}
+            # where p(j) is the next available job for job j
             max_profit = max(jobs[index][2]+find_optimal_schedule(next_available_job), find_optimal_schedule(index+1))
             return max_profit
 
