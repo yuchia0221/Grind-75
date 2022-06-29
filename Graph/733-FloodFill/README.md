@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/flood-fill)!
 
-### [Solution](/Graph/733-FloodFill/solution.py); Depth-First Search
+### [Solution](/Graph/733-FloodFill/solution.py): Depth-First Search
 
 ```python
 def floodFill(image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
