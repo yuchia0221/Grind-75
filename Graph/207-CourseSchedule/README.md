@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/course-schedule)!
 
-### [Solution](/Graph/133-CloneGraph/solution.py): Depth-First Search
+### [Solution](/Graph/207-CourseSchedule/solution.py): Depth-First Search
 
 ```python
 class Solution:
