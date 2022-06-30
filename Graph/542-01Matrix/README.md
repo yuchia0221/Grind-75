@@ -31,4 +31,4 @@ def updateMatrix(matrix: List[List[int]]) -> List[List[int]]:
 Explanation: Observe that for each 1-cell (the value of cell is one), its minimuman distance to 0-cell (the value of cell is zero) must come from its four neighbors. We can perform a two-pass algorithm to solve this problem. In this problem, I decide to iterate the matrix from top->bottom & left->right and bottom->top & right->left. One may wonder whether the direction matters. The answer is "No" since if we iterate iterate the matrix from top->bottom & left->right, we are simply finding the shortest among all paths to the top/left/top-left of a given node.
 As long as you search in all directions, your answer will be correct.
 
-Time Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>), where r is the number of row and c is the number of column.
