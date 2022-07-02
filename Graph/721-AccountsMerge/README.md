@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/accounts-merge)!
 
-### [Solution 1](/Graph/721-AccountsMerge/solution1.py): Depth-First Search + Hash
+### [Solution 1](/Graph/721-AccountsMerge/solution1.py): Depth-First Search + Hash Table
 
 ```python
 class Solution:
@@ -40,6 +40,14 @@ Explanation: To merge multiple accounts, the most simple solution is to iterate 
 
 Time Complexity: ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>).
 
--   Denote ![N](https://latex.codecogs.com/svg.image?N) as the number of accounts and ![M](https://latex.codecogs.com/svg.image?M) as the maximum number of emails in one account. In worst case, all emails belong to one person. Therefore, sorting ![N*M](https://latex.codecogs.com/svg.image?N\cdot&space;M) emails will need ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>) time, while building emails map and running DFS will cost ![O(NM)](<https://latex.codecogs.com/svg.image?O(NM)>) time as no email will be traversed more than once. These procedures result in ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>) time complexity.
+-   Denote ![N](https://latex.codecogs.com/svg.image?N) as the number of accounts and ![M](https://latex.codecogs.com/svg.image?M) as the maximum number of emails in one account. In worst case, all emails belong to one person. Therefore, sorting ![N*M](https://latex.codecogs.com/svg.image?N\cdot&space;M) emails will need ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>) time, while building emails map and running DFS both will cost ![O(NM)](<https://latex.codecogs.com/svg.image?O(NM)>) time as no email will be traversed more than once. These procedures result in ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>) time complexity.
+
+Space Complexity: ![O(NM)](<https://latex.codecogs.com/svg.image?O(NM)>) for emails map.
+
+### [Solution 2](/Graph/721-AccountsMerge/solution2.py): Disjoint Set
+
+Time Complexity: ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>).
+
+-   Denote ![N](https://latex.codecogs.com/svg.image?N) as the number of accounts and ![M](https://latex.codecogs.com/svg.image?M) as the maximum number of emails in one account. In worst case, all emails belong to one person. Therefore, sorting ![N*M](https://latex.codecogs.com/svg.image?N\cdot&space;M) emails will need ![O(NMlogNM)](<https://latex.codecogs.com/svg.image?O(NMlogNM)>) time, while building emails map and running union-find operations will cost ![O(NM)](<https://latex.codecogs.com/svg.image?O(NM)>) time and ![a(N)](<https://latex.codecogs.com/svg.image?\alpha&space;(N)>) time, respectivey. Notice that ![a(N)](<https://latex.codecogs.com/svg.image?\alpha&space;(N)>) is the inverse Ackermann function.
 
 Space Complexity: ![O(NM)](<https://latex.codecogs.com/svg.image?O(NM)>) for emails map.
