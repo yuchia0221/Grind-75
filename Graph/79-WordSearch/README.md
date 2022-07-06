@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/word-search)!
 
-### [Solution](/Graph/79-WordSearch/solution.py): Breath-First Search
+### [Solution](/Graph/79-WordSearch/solution.py): Depth-First Search
 
 ```python
 def exist( board: List[List[str]], word: str) -> bool:
