@@ -32,12 +32,12 @@ class Solution:
 
             return left
 
-        @memorization
+        @memoization
         def find_optimal_schedule(index: int) -> int:
             if index == len(jobs):
                 return 0
             next_available_job = find_next_available_job(index, jobs[index][1])
-            
+
             # Defined the maximum profit for interval 1 to j as OPT(j) => OPT(j) = max{j.profit + OPT(p(j)), OPT(j-1)}
             # where p(j) is the next available job for job j
             max_profit = max(jobs[index][2]+find_optimal_schedule(next_available_job), find_optimal_schedule(index+1))

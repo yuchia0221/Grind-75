@@ -1,7 +1,7 @@
 from typing import List
 
 
-def memorization(func):
+def memoization(func):
     memo = {}
 
     def helper(x):
@@ -24,7 +24,7 @@ class Solution:
 
             return left
 
-        @memorization
+        @memoization
         def find_optimal_schedule(index: int) -> int:
             if index == len(jobs):
                 return 0
