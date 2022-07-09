@@ -5,7 +5,7 @@ Problem can be found in [here](https://leetcode.com/problems/word-search)!
 ### [Solution](/Graph/79-WordSearch/solution.py): Depth-First Search
 
 ```python
-def exist( board: List[List[str]], word: str) -> bool:
+def exist(board: List[List[str]], word: str) -> bool:
     def DFS(row: int, column: int, word_index: int) -> None:
         nonlocal is_word_exist
         # To avoid further function calls as we have already found the answer
