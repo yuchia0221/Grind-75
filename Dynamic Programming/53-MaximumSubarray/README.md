@@ -1,6 +1,6 @@
 # Maximum Subarray
 
-Problem can be found in [here](https://leetcode.com/problems/maximum-subarray/)!
+Problem can be found in [here](https://leetcode.com/problems/maximum-subarray)!
 
 ### [Solution](/Dynamic%20Programming/53-MaximumSubarray/solution.py): Dynamic Programming
 
