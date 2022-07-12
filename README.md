@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 58 / 75
+##### Problem Solved: 60 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -11,7 +11,7 @@
 -   [x] [Binary Tree](#binary-tree) (9)
 -   [x] [Binary Search](#binary-search) (5)
 -   [x] [Graph](#graph) (10)
--   [ ] [Dynamic Programming](#dynamic-programming) (5)
+-   [x] [Dynamic Programming](#dynamic-programming) (5)
 -   [ ] [Binary Search Tree](#binary-search-tree) (3)
 -   [ ] [Hash Table](#hash-table) (1)
 -   [ ] [Binary](#binary) (1)
@@ -116,7 +116,7 @@
 -   [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs): [Solution](/Dynamic%20Programming/70-ClimbingStairs/)
 -   [x] [Coin Change](https://leetcode.com/problems/coin-change): [Solution](/Dynamic%20Programming/322-CoinChange/)
 -   [x] [Partition Equal Subset Sum](https://leetcode.com/problems/maximum-subarray): [Solution](/Dynamic%20Programming/416-PartitionEqualSubsetSum/)
--   [ ] [Unique Paths](https://leetcode.com/problems/unique-paths)
+-   [x] [Unique Paths](https://leetcode.com/problems/unique-paths): [Solution](/Dynamic%20Programming/62-UniquePaths/)
 
 ---
 
