@@ -115,7 +115,7 @@
 -   [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray): [Solution](/Dynamic%20Programming/53-MaximumSubarray/)
 -   [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs): [Solution](/Dynamic%20Programming/70-ClimbingStairs/)
 -   [x] [Coin Change](https://leetcode.com/problems/coin-change): [Solution](/Dynamic%20Programming/322-CoinChange/)
--   [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/maximum-subarray)
+-   [x] [Partition Equal Subset Sum](https://leetcode.com/problems/maximum-subarray): [Solution](/Dynamic%20Programming/416-PartitionEqualSubsetSum/)
 -   [ ] [Unique Paths](https://leetcode.com/problems/unique-paths)
 
 ---
