@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 62 / 75
+##### Problem Solved: 63 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -12,7 +12,7 @@
 -   [x] [Binary Search](#binary-search) (5)
 -   [x] [Graph](#graph) (10)
 -   [x] [Dynamic Programming](#dynamic-programming) (5)
--   [ ] [Binary Search Tree](#binary-search-tree) (3)
+-   [x] [Binary Search Tree](#binary-search-tree) (3)
 -   [ ] [Hash Table](#hash-table) (1)
 -   [ ] [Binary](#binary) (1)
 -   [ ] [Heap](#heap) (4)
@@ -124,7 +124,7 @@
 
 -   [x] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree): [Solution](/Binary%20Search%20Tree/235-LowestCommonAncestorofaBinarySearchTree/)
 -   [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree): [Solution](/Binary%20Search%20Tree/)
--   [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
+-   [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst): [Solution](/Binary%20Search%20Tree/230-KthSmallestElementinaBST/)
 
 ---
 
