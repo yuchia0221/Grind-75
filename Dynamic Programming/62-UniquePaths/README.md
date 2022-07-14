@@ -16,13 +16,12 @@ Time Complexity: ![O(m+n)](<https://latex.codecogs.com/svg.image?\inline&space;O
 ### [Solution 2](/Dynamic%20Programming/62-UniquePaths/solution2.py): Dynamic Programming
 
 ```python
-class Solution:
-    def uniquePaths(self, m: int, n: int) -> int:
-        memo = [1] * n
-        for _ in range(1, m):
-            for j in range(1, n):
-                memo[j] = memo[j - 1] + memo[j]
-        return memo[-1] if m and n else 0
+def uniquePaths(m: int, n: int) -> int:
+    memo = [1] * n
+    for _ in range(1, m):
+        for j in range(1, n):
+            memo[j] = memo[j - 1] + memo[j]
+    return memo[-1] if m and n else 0
 ```
 
 Time Complexity: ![O(m+n)](<https://latex.codecogs.com/svg.image?\inline&space;O(m+n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), where m is the number of rows and n is the number of columns.
