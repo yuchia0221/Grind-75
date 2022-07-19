@@ -19,4 +19,4 @@ def canConstruct(ransomNote: str, magazine: str) -> bool:
     return True
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(m)](<https://latex.codecogs.com/svg.image?\inline&space;O(m)>), where n is the length of ransomNote and m is the length of magazine.
+Time Complexity: ![O(n+m)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>), where n is the length of ransomNote and m is the length of magazine.
