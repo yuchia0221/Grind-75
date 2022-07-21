@@ -143,7 +143,7 @@
 ### Heap
 
 -   [x] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin): [Solution](/Heap/973-KClosestPointstoOrigin/)
--   [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler)
+-   [x] [Task Scheduler](https://leetcode.com/problems/task-scheduler): [Solution](/Heap/621-TaskScheduler/)
 -   [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 -   [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
