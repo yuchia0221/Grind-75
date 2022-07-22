@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 66 / 75
+##### Problem Solved: 67 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -144,7 +144,7 @@
 
 -   [x] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin): [Solution](/Heap/973-KClosestPointstoOrigin/)
 -   [x] [Task Scheduler](https://leetcode.com/problems/task-scheduler): [Solution](/Heap/621-TaskScheduler/)
--   [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+-   [x] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/): [Solution](/Heap/295-FindMedianfromDataStream/)
 -   [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ### Trie
