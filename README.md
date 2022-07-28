@@ -156,7 +156,7 @@
 
 ### Recursion
 
--   [ ] [Permutations](https://leetcode.com/problems/permutations)
+-   [x] [Permutations](https://leetcode.com/problems/permutations): [Solution](/Recursion/46-Permutations/)
 -   [ ] [Subsets](https://leetcode.com/problems/subsets)
 -   [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 
