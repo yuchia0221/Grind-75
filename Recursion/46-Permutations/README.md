@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/permutations)!
 
-### [Solution](/Trie/139-WordBreak/solution.py): Recursion
+### [Solution](/Recursion/46-Permutations/solution.py): Recursion
 
 ```python
 class Solution:
