@@ -2,7 +2,7 @@
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 73 / 75
+##### Problem Solved: 74 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -158,7 +158,7 @@
 
 -   [x] [Permutations](https://leetcode.com/problems/permutations): [Solution](/Recursion/46-Permutations/)
 -   [x] [Subsets](https://leetcode.com/problems/subsets): [Solution](/Recursion/78-Subsets/)
--   [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+-   [x] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number): [Solution](/Recursion/17-LetterCombinationsofaPhoneNumber/)
 
 ---
 
