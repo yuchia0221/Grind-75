@@ -1,8 +1,8 @@
-# Grind 75
+# Grind 75 (Completed)
 
 > This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
-##### Problem Solved: 74 / 75
+##### Problem Solved: 75 / 75
 
 -   [x] [Array](#array) (11)
 -   [x] [Stack](#stack) (7)
@@ -17,8 +17,8 @@
 -   [x] [Binary](#binary) (1)
 -   [x] [Heap](#heap) (4)
 -   [x] [Trie](#trie) (2)
--   [ ] [Recursion](#recursion) (3)
--   [ ] [Matrix](#matrix) (1)
+-   [x] [Recursion](#recursion) (3)
+-   [x] [Matrix](#matrix) (1)
 
 ### Array
 
@@ -164,4 +164,4 @@
 
 ### Matrix
 
--   [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix)
+-   [x] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix): [Solution](/Matrix/54-SpiralMatrix/)
