@@ -19,7 +19,7 @@ def productExceptSelf(nums: List[int]) -> List[int]:
     return output_list
 ```
 
-Explanation: Since we only iterate _nums_ twice, so the algorithm runs in O(2\*n) = O(n) time. Suppose _nums_ = [a, b, c, d]. After first loop, we will get output_list = [1, a, ab, abc]. Noted that the value of the last element is exactly the product of array except self. With this in mind, we only need to iterate _nums_ backward to calculate the value of each element via suffix_poduct. In the second for-loop, when i = len(nums)-1 (the last element), output_list\[i] is exactly output_list and suffix_product = 1 _ d. When i=len(nums)-2, the value will be output_list\[i] _ suffix_product = ab \* d = abd. As as result, we get an array with its value is the product of array except self.
+Explanation: Since we only iterate _nums_ twice and all of operations inside loops are performed in constant time, so the algorithm runs in O(2\*n) = O(n) time. Suppose _nums_ = [a, b, c, d]. After first loop, we will get output_list = [1, a, ab, abc]. Noted that the value of the last element is exactly the product of array except self. With this in mind, we only need to iterate _nums_ backward to calculate the value of each element via suffix_poduct. In the second for-loop, when i = len(nums)-1 (the last element), output_list\[i] is exactly output_list and suffix_product = 1 \* d. When i=len(nums)-2, the value will be output_list\[i] _ suffix_product = ab \* d = abd. As as result, we get an array with its value is the product of array except self.
 
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
 
