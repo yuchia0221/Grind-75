@@ -30,4 +30,4 @@ def numIslands(grid: List[List[str]]) -> int:
 
 Explanation: Everytime we find a land ("1"), we perform DFS (depth-first search) to find all of the land in this island and change it to water ("0") so that we will not count it again in further iterations. After DFS, we have fully explored this particular island. Notice that it is feasible to change it to another character whatever you like except "1".
 
-Time Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>), Space Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>), where n is the number of row and m is the number of column.
+Time Complexity: ![O(n * m)](<https://latex.codecogs.com/svg.image?\inline&space;O(n\cdot&space;m)>), Space Complexity: ![O(n * m)](<https://latex.codecogs.com/svg.image?\inline&space;O(n\cdot&space;m)>), where n is the number of row and m is the number of column.
