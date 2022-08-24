@@ -29,4 +29,4 @@ def floodFill(image: List[List[int]], sr: int, sc: int, color: int) -> List[List
 
 Explanation: To solve this problem, we need to perform depth-first search (DFS). Notice that when we need to search in 4 directions, we need to check whether exceeeds the boundaries.
 
-Time Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>), Space Complexity: ![O(r * c)](<https://latex.codecogs.com/svg.image?\inline&space;O(r\cdot&space;c)>) for recursion stack, where r is the number of row and c is the number of column.
+Time Complexity: ![O(m * n)](<https://latex.codecogs.com/svg.image?\inline&space;O(m\cdot&space;n)>), Space Complexity: ![O(m * n)](<https://latex.codecogs.com/svg.image?\inline&space;O(m\cdot&space;n)>) for recursion stack, where m is the number of row and n is the number of column.
