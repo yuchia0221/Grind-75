@@ -20,6 +20,8 @@ def euclidean_distance(point: List[int]):
     return pow(point[0], 2) + pow(point[1], 2)
 ```
 
+Explanation: Since the problem is asking us to return k closest points to the origin, we can construct a heap with the first k points in the array points. After that we can iterate the remaining array, if we find the distance is larger than smallest value in the heap (notice that there is a negative sign, so smaller value indicates farther distance from the point to the origin), we can pop that value out and push the point in.
+
 Time Complexity: ![nlogk](<https://latex.codecogs.com/svg.image?\inline&space;O(nlogk)>), Space Complexity: ![O(k)](<https://latex.codecogs.com/svg.image?\inline&space;O(k)>), where n is the length of array and k is the number of closest points to the origin we need to return.
 
 ### [Solution2](/Heap/973-KClosestPointstoOrigin/solution2.py): Binary Search
