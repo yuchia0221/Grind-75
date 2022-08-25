@@ -20,7 +20,6 @@ class MedianFinder:
             return (self.min_heap[0] - self.max_heap[0]) / 2
         else:
             return -self.max_heap[0]
-
 ```
 
 Time Complexity: ![O(lgn)](<https://latex.codecogs.com/svg.image?\inline&space;O(logn)>) for adding new number and ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>) for finding the median number, Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), where n is the number of numbers.
