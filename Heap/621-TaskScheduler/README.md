@@ -29,7 +29,7 @@ Notice that for the interval between any A should be at least n tasks. In other 
 
 Based on these findings, the minimum interval we need to schedule all tasks is (n+1)\*(max_count-1) + num_most_frequent_tasks. The reason why we need to add `num_most_frequent_tasks` is because we need to take the last `ABCD` into account since (n+1)\*(max_count-1) does not include the last `ABCD`.
 
-Finally, based on the formula we only need 8 intervals for scheduling `AAABBBCDEFG` and n=2. However, we know that there are 11 taks to be scheduled. Therefore, there should be at least 11 intervals.
+Finally, based on the formula we only need 8 intervals for scheduling `AAABBBCDEFG` and n=2. However, we know that there are 11 tasks to be scheduled. Therefore, there should be at least 11 intervals.
 
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), where n is the length of array.
 
@@ -61,4 +61,4 @@ def leastInterval(tasks: List[str], n: int) -> int:
     return time
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>), where n is the length of array.
+Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), where n is the length of array.
