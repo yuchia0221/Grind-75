@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/min-stack)!
 
-### [Solution](/Stack/232-ImplementQueueusingStacks/solution.py)
+### [Solution](/Stack/155-MinStack/solution.py)
 
 ```python
 class MinStack:
