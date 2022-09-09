@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/word-ladder)!
 
-### [Solution](/Graph/127-WordLadder/solution.py): Breath-First Search
+### [Solution](/Graph/127-WordLadder/solution.py): Breadth-First Search
 
 ```python
 def ladderLength(beginWord: str, endWord: str, wordList: List[str]) -> int:

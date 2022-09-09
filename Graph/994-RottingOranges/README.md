@@ -2,7 +2,7 @@
 
 Problem can be found in [here](https://leetcode.com/problems/rotting-oranges)!
 
-### [Solution](/Graph/994-RottingOranges/solution.py): Breath-First Search
+### [Solution](/Graph/994-RottingOranges/solution.py): Breadth-First Search
 
 ```python
 def orangesRotting(grid: List[List[int]]) -> int:
@@ -46,6 +46,6 @@ def orangesRotting(grid: List[List[int]]) -> int:
     return counter if fresh_oranges == 0 else -1
 ```
 
-Explanation: In the initial stage, we need to iterate the whole grid once to compute the number of fresh oranges and the location of rotten oranges. In each iteration (minute), we perform a one-level BFS (breath-first search) for all rotten oranges. If we find a fresh orange next to a rotten orange, we update a fresh orange to rotten one and the number of remaining fresh oranges. Once the number of fresh oranges is 0 or there are no rotten oranges in the queue, we know the algorithm is finished.
+Explanation: In the initial stage, we need to iterate the whole grid once to compute the number of fresh oranges and the location of rotten oranges. In each iteration (minute), we perform a one-level BFS (breadth-first search) for all rotten oranges. If we find a fresh orange next to a rotten orange, we update a fresh orange to rotten one and the number of remaining fresh oranges. Once the number of fresh oranges is 0 or there are no rotten oranges in the queue, we know the algorithm is finished.
 
 Time Complexity: ![O(m * n)](<https://latex.codecogs.com/svg.image?\inline&space;O(m\cdot&space;n)>), Space Complexity: ![O(m+n)](<https://latex.codecogs.com/svg.image?\inline&space;O(m+n)>), where m is the number of row and n is the number of column.

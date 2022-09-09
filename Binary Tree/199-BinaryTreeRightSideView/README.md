@@ -11,7 +11,7 @@ class TreeNode:
         self.right = right
 ```
 
-### [Solution](/Binary%20Tree/199-BinaryTreeRightSideView/solution.py): Breath-First Search
+### [Solution](/Binary%20Tree/199-BinaryTreeRightSideView/solution.py): Breadth-First Search
 
 ```python
 class Solution:

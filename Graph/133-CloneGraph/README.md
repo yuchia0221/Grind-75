@@ -10,7 +10,7 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 ```
 
-### [Solution](/Graph/133-CloneGraph/solution.py): Breath-First Search + Hash Table
+### [Solution](/Graph/133-CloneGraph/solution.py): Breadth-First Search + Hash Table
 
 ```python
 class Solution:
@@ -33,6 +33,6 @@ class Solution:
         return clones[node.val]
 ```
 
-Explanation: Simply perform breath-first search (BFS) to solve this problem and use a hash table to track vistied and cloned nodes.
+Explanation: Simply perform breadth-first search (BFS) to solve this problem and use a hash table to track vistied and cloned nodes.
 
 Time Complexity: ![O(V + E)](<https://latex.codecogs.com/svg.image?\inline&space;O(V + E)>), Space Complexity: ![O(V)](<https://latex.codecogs.com/svg.image?\inline&space;O(V)>), where V is the total number of nodes and E is the total number of edges.

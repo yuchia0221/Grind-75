@@ -11,7 +11,7 @@ class TreeNode:
         self.right = right
 ```
 
-### [Solution](/Binary%20Tree/297-SerializeandDeserializeBinaryTree/solution.py): Breath-First Search
+### [Solution](/Binary%20Tree/297-SerializeandDeserializeBinaryTree/solution.py): Breadth-First Search
 
 ```python
 class Codec:

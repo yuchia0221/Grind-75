@@ -11,7 +11,7 @@ class TreeNode:
         self.right = right
 ```
 
-### [Solution](/Binary%20Tree/102-BinaryTreeLevelOrderTraversal/solution.py): Breath-First Search
+### [Solution](/Binary%20Tree/102-BinaryTreeLevelOrderTraversal/solution.py): Breadth-First Search
 
 ```python
 class Solution:
@@ -34,6 +34,6 @@ class Solution:
         return output_list
 ```
 
-Explanation: We can solve this problem by using breath-first search (BFS). To support performing BFS on the binary tree, we need to use a queue. As we iterate the whole binary tree, we will get the level-order traversal of given binary tree.
+Explanation: We can solve this problem by using breadth-first search (BFS). To support performing BFS on the binary tree, we need to use a queue. As we iterate the whole binary tree, we will get the level-order traversal of given binary tree.
 
 Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>)
