@@ -25,6 +25,6 @@ class Solution:
             current.next = current = node
             if node.next:
                 next_node = node.next
-                heappush(heap, (current.val, id(next_node), next_node))
+                heappush(heap, (next_node.val, id(next_node), next_node))
 
         return dummy_head.next
