@@ -35,7 +35,7 @@ This repository has not been actively maintained for a while. I plan to revisit 
 -   [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self): [Solution](/Array/238-ProductofArrayExceptSelf/)
 -   [x] [Combination Sum](https://leetcode.com/problems/combination-sum): [Solution](/Array/39-CombinationSum/)
 -   [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals): [Solution](/Array/56-MergeIntervals/)
--   [x] [Sort Colors](https://leetcode.com/problems/sort-colors): [Solution](/Array/75-SortColors/): [Solution](/Array/75-SortColors/)
+-   [x] [Sort Colors](https://leetcode.com/problems/sort-colors): [Solution](/Array/75-SortColors/)
 -   [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water): [Solution](/Array/11-ContainerWithMostWater/)
 
 ---
@@ -56,7 +56,7 @@ This repository has not been actively maintained for a while. I plan to revisit 
 
 -   [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists): [Solution](/Linked%20List/21-MergeTwoSortedLists/)
 -   [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle): [Solution](/Linked%20List/141-LinkedListCycle/)
--   [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list): [Solution](/Linked%20List/206-Reverse-Linked-List/)
+-   [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list): [Solution](/Linked%20List/206-ReverseLinkedList/)
 -   [x] [Middle of the Linked List](https://leetcode.com/problems/remove-nth-node-from-end-of-list): [Solution](/Linked%20List/876-MiddleoftheLinkedList/)
 -   [x] [LRU Cache](https://leetcode.com/problems/reorder-list): [Solution](/Linked%20List/146-LRUCache/)
 
@@ -68,7 +68,7 @@ This repository has not been actively maintained for a while. I plan to revisit 
 -   [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram): [Solution](/String/242-ValidAnagram/)
 -   [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome): [Solution](/String/409-LongestPalindrome/)
 -   [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters): [Solution](/String/3-LongestSubstringWithoutRepeatingCharacters/)
--   [x] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi): [Solution](</String/8-StringtoInteger(atoi)/>)
+-   [x] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi): [Solution](/String/8-StringtoInteger(atoi)/)
 -   [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring): [Solution](/String/5-LongestPalindromicSubstring/)
 -   [x] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string): [Solution](/String/438-FindAllAnagramsinaString/)
 -   [x] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring): [Solution](/String/76-MinimumWindowSubstring/)
@@ -153,7 +153,7 @@ This repository has not been actively maintained for a while. I plan to revisit 
 
 ### Trie
 
--   [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree): [Solution](</Trie/208-ImplementTrie(PrefixTree)/>)
+-   [x] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree): [Solution](/Trie/208-ImplementTrie(PrefixTree)/)
 -   [x] [Word Break](https://leetcode.com/problems/word-break): [Solution](/Trie/139-WordBreak/)
 
 ---
