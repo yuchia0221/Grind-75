@@ -1,6 +1,10 @@
 # Grind 75 (Completed)
 
-> This repository is a software engineer interview prepration, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 cagtegories, including Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
+⚠️ Repository Maintenance Notice
+
+This repository has not been actively maintained for a while. I plan to revisit every single question to ensure accuracy and completeness once I am available. If you come across any outdated information or have suggestions, feel free to open an issue or submit a pull request. Your contributions are greatly appreciated!
+
+> This repository is a software engineer interview preparation, which provides solutions for 75 leetcode questions in Python. The original post can be found on [here](https://www.techinterviewhandbook.org/grind75?grouping=topics&order=difficulty&hours=8). Questions can be categorized into 15 categories: Array, Stack, Linked List, String, Binary Tree, Binary Search, Graph, Dynamic Programming, Binary Search Tree, Hash Table, Binary, Heap, Trie, Recursion, and Matrix.
 
 ##### Problem Solved: 75 / 75
 
@@ -120,7 +124,7 @@
 
 ---
 
-### Binart Search Tree
+### Binary Search Tree
 
 -   [x] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree): [Solution](/Binary%20Search%20Tree/235-LowestCommonAncestorofaBinarySearchTree/)
 -   [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree): [Solution](/Binary%20Search%20Tree/)
