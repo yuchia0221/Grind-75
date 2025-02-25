@@ -1,35 +1,35 @@
 # Two Sum
 
-Problem can be found in [here](https://leetcode.com/problems/two-sum/)!
+The Two Sum problem is a classic algorithmic challenge where we need to find two numbers in an array that sum up to a given target value. You can find the full problem description [here](https://leetcode.com/problems/two-sum/)!
 
 ### [Basic Solution](/Array/1-TwoSum/basicSolution.py): Brute Force
 
 ```python
-# target: int, nums: List[int]
-
- for i in range(len(nums)):
-    number_to_find = target - nums[i]
-    for j in range(i + 1, len(nums)):
-        if nums[j] == number_to_find:
-            return [i, j] # Find indices of the two numbers!
+def twoSum(nums: list, target: int) -> list:
+    for i in range(len(nums)):
+        number_to_find = target - nums[i]
+        for j in range(i + 1, len(nums)):
+            if nums[j] == number_to_find:
+                return [i, j]
 ```
 
-Time Complexity: ![O(n^2)](<https://latex.codecogs.com/svg.image?\inline&space;O(n^2)>), Space Complexity: ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>)
+Time Complexity: $O(n^2)$, Space Complexity: $O(1)$
 
-Explanation: Simply iterate the array and find the target value among the array in each iteration.
+Explanation: This brute-force solution iterates through each element and checks all subsequent elements to find a pair that sums to the target. Since we check all pairs, the time complexity is $O(n^2)$.
 
 ### [Improved Solution](/Array/1-TwoSum/improvedSolution.py): Hash Table
 
 ```python
-memo = {}
-for i, j in enumerate(nums):
-    number_to_find = target - j
-    try:
-        return [memo[j], i] # Find indices of the two numbers!
-    except KeyError:
-        memo[number_to_find] = i
+def twoSum(self, nums: list, target: int) -> list:
+    memo = {}
+    for i, num in enumerate(nums):
+        if num in memo:
+            return [memo[num], i]
+
+        memo[target - num] = i
 ```
 
-Time Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>), Space Complexity: ![O(n)](<https://latex.codecogs.com/svg.image?\inline&space;O(n)>)
+Time Complexity: $O(n)$, Space Complexity: $O(n)$
 
-Explanation: Instead of searching the whole array blindlessly in each iteration, using a hash table can determine whether this element is the target value in ![O(1)](<https://latex.codecogs.com/svg.image?\inline&space;O(1)>) time.
+Explanation: Instead of performing a brute-force search through the array, this solution uses a hash table (dictionary) to store the difference between the target and each element. This allows us to check if the required complement exists in $O(1)$ time, reducing the overall complexity to
+$O(n)$.

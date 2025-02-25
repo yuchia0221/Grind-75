@@ -1,9 +1,8 @@
 class Solution:
     def twoSum(self, nums: list, target: int) -> list:
         memo = {}
-        for i, j in enumerate(nums):
-            number_to_find = target - j
-            try:
-                return [memo[j], i]
-            except KeyError:
-                memo[number_to_find] = i
+        for i, num in enumerate(nums):
+            if num in memo:
+                return [memo[num], i]
+
+            memo[target - num] = i
