@@ -1,9 +1,8 @@
-from typing import List
-
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        buyPrice, maxGap = float("inf"), 0
+    def maxProfit(self, prices: list[int]) -> int:
+        buy_price, max_gap = float("inf"), 0
         for price in prices:
-            buyPrice, maxGap = min(buyPrice, price), max(maxGap, price - buyPrice)
+            buy_price = min(buy_price, price)
+            max_gap = max(max_gap, price - buy_price)
 
-        return maxGap
+        return max_gap
